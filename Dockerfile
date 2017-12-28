@@ -1,4 +1,4 @@
 FROM alpine:edge
 
-RUN apk --update add ghc cabal postgresql-dev alpine-sdk linux-headers musl-dev gmp-dev zlib-dev
+RUN apk --update add postgresql-dev gmp-dev zlib-dev libffi
 
